@@ -69,6 +69,10 @@ ul {
     flex: 1;
 }
 
+.hero-right, .hero-left {
+    flex: 1;
+}
+
 #hero-img {
     max-width: 100%;
     min-width: 100%;
