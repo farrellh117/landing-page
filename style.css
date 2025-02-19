@@ -91,7 +91,7 @@ ul {
 }
 
 .card-container {
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
     padding: 0;
@@ -113,12 +113,13 @@ ul {
 
 .quote {
     background: #e5e7eb;
-    padding: 60px;
+    padding: 60px 240px;
 }
 
 .quote-text {
     font-style: italic;
     font-size: 32px;
+    font-weight: lighter;
 }
 
 .quote-author {
