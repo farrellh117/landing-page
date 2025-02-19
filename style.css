@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 
-.header, .hero, .information, .cta, .footer {
+.header, .hero, .card-container, .cta, .footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,14 +75,24 @@ ul {
 }
 
 .information {
-    justify-content: space-between;
+    padding: 40px 60px;
 }
 
 .info-title {
-    justify-content: center;
+    text-align: center;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-top: 0
+}
+
+.card-container {
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
 }
 
 .quote {
@@ -115,6 +125,7 @@ ul {
     background: #3882f6;
     border: 1px solid #f9faf8;
     color: #f9faf8;
+    font-weight: bolder;
     cursor: pointer;
     padding: 8px 25px;
     border-radius: 8px;
